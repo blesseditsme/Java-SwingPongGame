@@ -20,9 +20,7 @@ public class Score extends Rectangle {
         g.drawString(player2 / 10 + String.valueOf(player2%10), (GAME_WIDTH/2 + 20), 50);
 
         //drawing a doted line in the middle
-        Graphics2D g2d = (Graphics2D) g; /* a more complex Graphics class used to draw Objects (as in give in an Object
-        in parameter and not dimensions or coordinates)
-        How to make a dotted line: */
+        Graphics2D g2d = (Graphics2D) g;
         Stroke dashed = new BasicStroke(3, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[] { 10 }, 0);
         g2d.setStroke(dashed);
         g.drawLine(GAME_WIDTH / 2, 0, GAME_WIDTH / 2, GAME_HEIGHT);

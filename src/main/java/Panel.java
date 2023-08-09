@@ -31,7 +31,6 @@ public class Panel extends JPanel implements Runnable {
 
         gameThread = new Thread(this);
         gameThread.start();
-
     }
 
     public void newBall() {
@@ -41,7 +40,6 @@ public class Panel extends JPanel implements Runnable {
     public void newPaddles() {
         paddle1 = new Paddle(10, (GAME_HEIGHT/2) - (PADDLE_HEIGHT/2), PADDLE_WIDTH, PADDLE_HEIGHT, 1);
         paddle2 = new Paddle(GAME_WIDTH - PADDLE_WIDTH - 10, (GAME_HEIGHT/2) - (PADDLE_HEIGHT/2), PADDLE_WIDTH, PADDLE_HEIGHT, 2);
-
     }
     public void paint(Graphics g) {
         image = createImage(getWidth(), getHeight());

@@ -20,9 +20,7 @@ public class Ball extends Rectangle {
         if(randomYDirection == 0)
             --randomYDirection;
         setYDirection(randomYDirection*initialSpeed);
-
     }
-
 
     public void setXDirection(int randomXDirection) {
         xVelocity = randomXDirection;
