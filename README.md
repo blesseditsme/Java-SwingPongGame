@@ -13,9 +13,18 @@ Paddle movement controlled by keyboard input.
 Basic game loop for smooth gameplay.
 Scoring system to keep track of each player's score.
 
-Getting Started:
+Controls:
 
-To run the Pong Game on your local machine, follow these steps:
+Player 1:
+To move Up use W key,
+To move Down use S key.
+
+Player 2:
+To move Up use UP arrow key, 
+To move Down use DOWN arrow key.
+
+How to Run:
+
 Clone this repository to your computer.
 Ensure you have Java installed on your system.
 Compile the Java code using a Java compiler.
@@ -29,16 +38,6 @@ Player 2 controls the right paddle using the arrow keys: UP (up) and DOWN (down)
 Try to hit the ball with your paddle to prevent it from crossing the screen's edges.
 Each time the ball passes your opponent's paddle and reaches the screen's edge, you earn a point.
 The game continues until one player reaches a predefined score limit.
-
-Controls:
-
-Player 1:
-To move Up use W key,
-To move Down use S key.
-
-Player 2:
-To move Up use UP arrow key, 
-To move Down use DOWN arrow key.
 
 Game Rules:
 
